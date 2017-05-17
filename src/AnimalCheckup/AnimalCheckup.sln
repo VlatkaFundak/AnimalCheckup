@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalCheckup.Model.Common"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalCheckup.Common", "AnimalCheckup.Common\AnimalCheckup.Common.csproj", "{1B8B6B6B-2E7A-4D50-B279-A0CAA5871955}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalCheckup.DAL", "AnimalCheckup.DAL\AnimalCheckup.DAL.csproj", "{861E37BC-5D36-4245-9AA0-3EBCF4654504}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{1B8B6B6B-2E7A-4D50-B279-A0CAA5871955}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B8B6B6B-2E7A-4D50-B279-A0CAA5871955}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B8B6B6B-2E7A-4D50-B279-A0CAA5871955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{861E37BC-5D36-4245-9AA0-3EBCF4654504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{861E37BC-5D36-4245-9AA0-3EBCF4654504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{861E37BC-5D36-4245-9AA0-3EBCF4654504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{861E37BC-5D36-4245-9AA0-3EBCF4654504}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

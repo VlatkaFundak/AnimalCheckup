@@ -62,7 +62,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AnimalCheckupContext.cs" />
-    <Compile Include="Models\User.cs" />
+    <Compile Include="Models\AnimalEntity.cs" />
+    <Compile Include="Models\CategoryEntity.cs" />
+    <Compile Include="Models\JobEntity.cs" />
+    <Compile Include="Models\OwnerEntity.cs" />
+    <Compile Include="Models\UserEntity.cs" />
+    <Compile Include="Models\UserProfileEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

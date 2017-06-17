@@ -5,9 +5,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace AnimalCheckup.DAL.Models
 {
     [Table("User", Schema = "public")]
-    public class User
+    public class UserEntity
     {
-        [Column("ID")]
         [Key]
         public Guid Id { get; set; }
 

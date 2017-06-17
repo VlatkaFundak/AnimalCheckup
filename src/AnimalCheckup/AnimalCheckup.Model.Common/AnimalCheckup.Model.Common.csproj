@@ -40,11 +40,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\IAnimalPoco.cs" />
+    <Compile Include="Models\ICategoryPoco.cs" />
+    <Compile Include="Models\IAddressModel.cs" />
+    <Compile Include="Models\IJobPoco.cs" />
+    <Compile Include="Models\IOwnerPoco.cs" />
+    <Compile Include="Models\IUserPoco.cs" />
+    <Compile Include="Models\IUserProfilePoco.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

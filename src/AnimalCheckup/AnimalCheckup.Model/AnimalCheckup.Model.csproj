@@ -40,10 +40,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\AnimalPoco.cs" />
+    <Compile Include="Models\CategoryPoco.cs" />
+    <Compile Include="Models\JobPoco.cs" />
+    <Compile Include="Models\OwnerPoco.cs" />
+    <Compile Include="Models\UserPoco.cs" />
+    <Compile Include="Models\UserProfilePoco.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Models\" />
+    <ProjectReference Include="..\AnimalCheckup.Model.Common\AnimalCheckup.Model.Common.csproj">
+      <Project>{05f0250a-0c53-4bdc-a11f-cb1832e73356}</Project>
+      <Name>AnimalCheckup.Model.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

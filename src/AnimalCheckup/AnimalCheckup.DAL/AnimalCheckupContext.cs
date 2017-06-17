@@ -8,6 +8,16 @@ namespace AnimalCheckup.DAL
         {
         }
 
-        public DbSet<Models.User> Users { get; set; }
+        public DbSet<Models.UserEntity> Users { get; set; }
+
+        public DbSet<Models.UserProfileEntity> UsersProfiles { get; set; }
+
+        public DbSet<Models.OwnerEntity> Owners { get; set; }
+
+        public DbSet<Models.AnimalEntity> Animals { get; set; }
+
+        public DbSet<Models.CategoryEntity> Categories { get; set; }
+
+        public DbSet<Models.JobEntity> Jobs { get; set; }
     }
 }
